@@ -3,8 +3,9 @@ package db
 import (
 	"log"
 
-	"gorm.io/gorm"
+	"github.com/leogsouza/grpc-order-svc/pkg/models"
 	"gorm.io/driver/postgres"
+	"gorm.io/gorm"
 )
 
 type Handler struct {
